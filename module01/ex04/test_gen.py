@@ -21,3 +21,5 @@ if __name__ == '__main__':
     for word in generator(text):
         print(word)
 
+    for word in generator(1.0):
+        print(word)

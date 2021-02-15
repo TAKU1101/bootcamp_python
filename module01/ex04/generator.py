@@ -4,6 +4,9 @@ from collections import Counter
 
 def generator(text, sep=" ", option=None):
     '''Option is an optional arg, sep is mandatory'''
+    if not isinstance(text, str):
+        yield "ERROR"
+        return
     word_list = text.split(sep)
     if option == "shuffle":
         shuffle_list = []
