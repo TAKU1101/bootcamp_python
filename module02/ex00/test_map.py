@@ -11,3 +11,5 @@ if __name__ == '__main__':
 
     l = ft_reduce(lambda x, y: x + y, [1, 2, 3, 4])
     print(l)
+
+    "test"
